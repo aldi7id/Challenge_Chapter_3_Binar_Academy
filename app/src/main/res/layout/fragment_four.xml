@@ -1,14 +1,36 @@
 <?xml version="1.0" encoding="utf-8"?>
-<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    tools:context=".FourFragment">
+    android:orientation="vertical"
+    tools:context=".FourFragment"
+    android:padding="10dp"
+    >
 
     <!-- TODO: Update blank fragment layout -->
-    <TextView
+    <EditText
+        android:id="@+id/et_age"
         android:layout_width="match_parent"
-        android:layout_height="match_parent"
-        android:text="@string/hello_blank_fragment" />
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Usia"/>
+    <EditText
+        android:id="@+id/et_address"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Alamat"/>
+    <EditText
+        android:id="@+id/et_jobs"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:hint="Masukkan Pekerjaan"/>
+    <Button
+        android:id="@+id/go_to_screen_five"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="Go To Screen Five"
+        android:textAllCaps="false"
+        android:backgroundTint="#6D3AE1"
+       />
 
-</FrameLayout>
+</LinearLayout>
