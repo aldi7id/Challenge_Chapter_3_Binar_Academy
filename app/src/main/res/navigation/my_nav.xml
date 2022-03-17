@@ -18,10 +18,19 @@
         android:id="@+id/secondFragment"
         android:name="com.ajgroup.challengechapter3binaracademy.SecondFragment"
         android:label="fragment_second"
-        tools:layout="@layout/fragment_second" />
+        tools:layout="@layout/fragment_second" >
+        <action
+            android:id="@+id/action_secondFragment_to_threeFragment"
+            app:destination="@id/threeFragment" />
+    </fragment>
     <fragment
         android:id="@+id/threeFragment"
         android:name="com.ajgroup.challengechapter3binaracademy.ThreeFragment"
         android:label="fragment_three"
         tools:layout="@layout/fragment_three" />
+    <fragment
+        android:id="@+id/fourFragment"
+        android:name="com.ajgroup.challengechapter3binaracademy.FourFragment"
+        android:label="fragment_four"
+        tools:layout="@layout/fragment_four" />
 </navigation>

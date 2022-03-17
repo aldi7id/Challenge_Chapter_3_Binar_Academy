@@ -20,7 +20,7 @@
         android:id="@+id/go_to_screen_four"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Go To Screen Three"
+        android:text="Go To Screen Four"
         android:textAllCaps="false"
         android:backgroundTint="#6D3AE1"
         app:layout_constraintTop_toTopOf="parent"
